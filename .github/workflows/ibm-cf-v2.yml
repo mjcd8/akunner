@@ -17,7 +17,7 @@ on:
   workflow_dispatch:
   repository_dispatch:
   schedule:
-    - cron: '0 17 * * THU'
+    - cron: '17 17 * * THU'
 
 jobs:
   deploy:
